@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+    <EditText
+        android:id="@+id/etword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="单词"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/etfanyi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="翻译"
+        android:gravity="top"
+        android:lines="5"
+        />
+</LinearLayout>
